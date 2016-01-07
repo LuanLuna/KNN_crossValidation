@@ -2,11 +2,11 @@ package ia.util;
 
 public class Imagem {
 	private int rotulo;
-	private int[][] pixelMatriz;
+	private int[] pixels;
 	
-	public Imagem(int rot, int[][] matriz) {
+	public Imagem(int rot, int[] matriz) {
 		this.rotulo = rot;
-		this.pixelMatriz = matriz;
+		this.pixels = matriz;
 	}
 	
 	public int getRotulo() {
@@ -15,11 +15,11 @@ public class Imagem {
 	public void setRotulo(int rotulo) {
 		this.rotulo = rotulo;
 	}
-	public int[][] getPixelMatriz() {
-		return pixelMatriz;
+	public int[] getPixelMatriz() {
+		return pixels;
 	}
-	public void setPixelMatriz(int[][] pixelMatriz) {
-		this.pixelMatriz = pixelMatriz;
+	public void setPixelMatriz(int[] pixelMatriz) {
+		this.pixels = pixelMatriz;
 	}
 	
 	
